@@ -1,0 +1,152 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="twr_demo_nRF52840" radix="16" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="twr_demo_nRF52840" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="twr_demo_nRF52840" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="twr_demo_nRF52840" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="twr_demo_nRF52840"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Board Definition"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;None"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;nRF_Drivers"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;nRF_Libraries"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Segger Startup Files"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;apps"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;apps;listener"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;apps;node"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;apps;tag"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;apps;tcfm"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;apps;tcwm"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;apps;trilat"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;apps;trilat;task_trilat"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;apps;usb2spi"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;CMSIS_RTOS"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;config"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;core"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;core;command"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;platform_nrf52840"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;srv"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Src;srv;common_n"/>
+  <ProjectSessionItem path="twr_demo_nRF52840;twr_demo_nRF52840;Third Parties"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="twr_demo_nRF52840" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="twr_demo_nRF52840" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="twr_demo_nRF52840" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="twr_demo_nRF52840" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="286" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="D:/SEGGER/SEGGER Embedded Studio for ARM 5.68/source/thumb_crt0.s" selected="0" top="278" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="36" y="701" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="Src/main.c" selected="1" top="351" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="7" y="100" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/mdk/ses_startup_nrf_common.s" selected="0" top="100" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="214" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="Src/apps/listener/listener/listener.c" selected="0" top="206" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="91" y="1286" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="Src/apps/node/node/node.c" selected="0" top="1273" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="40" y="502" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="Src/apps/tag/tag/tag.c" selected="0" top="487" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="40" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/mdk/system_nrf52840.c" selected="0" top="33" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="1154" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/platform_nrf52840/port/port_platform.c" selected="0" top="1146" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="38" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/dw_pdoa_node_common.c" useBinaryEdit="0" left="0" path="../bsp/dw3000_shield_bsp.h" selected="0" top="23" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="24" y="89" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/bsp/dw3000_shield_bsp.h" useBinaryEdit="0" left="0" path="../../SDK/components/boards/pca10056.h" selected="0" top="77" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="51" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/apps/usb2spi/task_usb2spi/task_usb2spi.c" selected="0" top="41" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="74" y="150" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/platform_nrf52840/port/deca_uart.c" selected="0" top="75" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="70" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/platform_nrf52840/port/port.h" selected="0" top="63" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="316" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/apps/usb2spi/task_usb2spi/task_usb2spi.c" useBinaryEdit="0" left="0" path="Src/apps/usb2spi/usb2spi/usb2spi.c" selected="0" top="316" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="75" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/apps/usb2spi/usb2spi/usb2spi.c" useBinaryEdit="0" left="0" path="Src/Inc/error.h" selected="0" top="63" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="112" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/dw_pdoa_node_common.c" selected="0" top="67" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="27" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/srv/crc16/crc16.c" selected="0" top="16" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="219" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/platform_nrf52840/port/deca_usb.c" selected="0" top="231" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="982" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/platform_nrf52840/port/deca_usb.c" useBinaryEdit="0" left="0" path="../../SDK/components/libraries/usbd/app_usbd.c" selected="0" top="960" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="71" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/mdk/ses_startup_nrf52840.s" selected="0" top="64" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="54" y="73" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/SDK/modules/nrfx/mdk/system_nrf52840.c" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/mdk/system_nrf52.c" selected="0" top="297" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="15" y="140" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/CMSIS_RTOS/cmsis_os.c" selected="0" top="131" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="248" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/Inc/app.h" selected="0" top="243" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="229" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/apps/trilat/task_trilat/task_trilat.c" selected="0" top="215" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="51" y="170" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="../../SDK/external/freertos/source/include/task.h" selected="0" top="163" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="89" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="Src/apps/tcwm/tcwm/tcwm.c" selected="0" top="82" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="24" y="286" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="drivers/dwt_uwb_driver/Inc/deca_device_api.h" selected="0" top="283" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="20" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="Src/apps/tcwm/task_tcwm/task_tcwm.c" selected="0" top="39" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="108" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="Src/srv/common_n/common_n.c" selected="0" top="108" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="13" y="477" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/srv/common_n/common_n.c" useBinaryEdit="0" left="0" path="drivers/dwt_uwb_driver/Inc/deca_interface.h" selected="0" top="471" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="26" y="221" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="../../SDK/components/boards/boards.c" selected="0" top="204" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="52" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/config/config/config.c" selected="0" top="50" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="83" y="81" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/SDK/external/freertos/source/tasks.c" useBinaryEdit="0" left="0" path="config/FreeRTOSConfig.h" selected="0" top="72" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="72" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/platform_nrf52840/port/port_.h" selected="0" top="60" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="411" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/CMSIS_RTOS/cmsis_os.h" selected="0" top="396" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="143" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="../../SDK/external/freertos/source/event_groups.c" selected="0" top="155" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="91" y="94" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/apps/tcfm/task_tcfm/task_tcfm.c" selected="0" top="84" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="148" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="../../SDK/external/freertos/source/include/event_groups.h" selected="0" top="140" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="290" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/apps/tag/task_tag/task_tag.c" selected="0" top="288" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="99" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/components/libraries/util/app_error_weak.c" selected="0" top="89" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="50" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/components/libraries/util/nrf_assert.c" selected="0" top="40" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="80" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/drivers/src/prs/nrfx_prs.c" selected="0" top="73" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="554" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/drivers/src/nrfx_spim.c" selected="0" top="545" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="70" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/integration/nrfx/legacy/nrf_drv_spi.c" selected="0" top="63" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="51" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/components/libraries/util/app_error_handler_gcc.c" selected="0" top="39" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="253" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/drivers/src/nrfx_gpiote.c" selected="0" top="251" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="660" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/hal/nrf_gpio.h" selected="0" top="651" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="71" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/components/libraries/delay/nrf_delay.h" selected="0" top="60" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="135" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/platform_nrf52840/port/port.h" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/mdk/nrf52840.h" selected="0" top="117" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="28" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/core/task_flush/task_flush.c" selected="0" top="19" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="243" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/dw_pdoa_node_common.c" useBinaryEdit="0" left="0" path="../../SDK/integration/nrfx/legacy/nrf_drv_clock.c" selected="0" top="240" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="166" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/external/freertos/portable/CMSIS/nrf52/port_cmsis_systick.c" selected="0" top="153" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="1900" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/CMSIS_RTOS/cmsis_os.c" useBinaryEdit="0" left="0" path="../../SDK/external/freertos/source/tasks.c" selected="0" top="1944" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="57" y="155" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/external/freertos/portable/CMSIS/nrf52/port_cmsis.c" selected="0" top="147" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="161" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/drivers/src/nrfx_wdt.c" selected="0" top="152" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="70" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/platform_nrf52840/port/deca_usb.c" useBinaryEdit="0" left="0" path="../../SDK/components/libraries/usbd/app_usbd_serial_num.c" selected="0" top="65" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="119" y="28" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="35" path="Src/core/task_ctrl/task_ctrl.c" selected="0" top="31" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1216" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="Src/core/command/cmd_fn/cmd_fn.c" selected="0" top="1196" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="134" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/core/task_flush/task_flush.c" useBinaryEdit="0" left="0" path="Src/core/usb_uart_tx/usb_uart_tx.c" selected="0" top="127" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="80" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="../../SDK/components/libraries/uart/app_uart.h" selected="0" top="71" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1288" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/hal/nrf_usbd.h" selected="0" top="1279" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="22" y="550" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/hal/nrf_spim.h" selected="0" top="545" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="289" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="../../SDK/components/libraries/usbd/app_usbd_class_base.h" selected="0" top="280" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="545" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/drivers/src/nrfx_uarte.c" selected="0" top="538" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="93" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/components/libraries/uart/app_uart_fifo.c" selected="0" top="86" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="69" y="126" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="D:/SEGGER/SEGGER Embedded Studio for ARM 5.68/include/stdio.h" selected="0" top="116" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/Inc/app.h" useBinaryEdit="0" left="0" path="Src/config/default_config/default_config.h" selected="0" top="135" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="546" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../SDK/modules/nrfx/hal/nrf_timer.h" selected="0" top="539" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="38" useTextEdit="1" openedFrom="F:/JZH/DW3000/DW3xxx_XR6.0C_24Feb2022/Release_XR6.0C/Software/Slotted_TWR_Demo_ARM/nRF52840_DK/Sources/twr_demo/NRF_Juniper/twr_demo/Src/main.c" useBinaryEdit="0" left="0" path="Src/apps/node/node/node.h" selected="0" top="28" codecName="Default"/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="twr_demo_nRF52840" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
