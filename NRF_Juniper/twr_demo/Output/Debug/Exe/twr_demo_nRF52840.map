@@ -7164,7 +7164,7 @@ Discarded input sections
  .text.final_msg_set_ts
                 0x0000000000000000       0x16 Output/Debug/Obj/twr_demo_nRF52840/main.o
  .text.dwt_while
-                0x0000000000000000       0x44 Output/Debug/Obj/twr_demo_nRF52840/main.o
+                0x0000000000000000       0x4c Output/Debug/Obj/twr_demo_nRF52840/main.o
  .text.StartDefaultTask
                 0x0000000000000000        0x2 Output/Debug/Obj/twr_demo_nRF52840/main.o
  .bss.defaultTaskHandle
@@ -18426,7 +18426,7 @@ LOAD linker stubs
  .comment       0x00000000000000be       0x80 drivers/dwt_uwb_driver/lib/libdwt_uwb_driver-m4-hfp-6.0.7.a(dw3700_device.c.obj)
  .comment       0x00000000000000be       0x80 drivers/dwt_uwb_driver/lib/libdwt_uwb_driver-m4-hfp-6.0.7.a(dw3720_device.c.obj)
 
-.debug_line     0x0000000000000000    0x28700
+.debug_line     0x0000000000000000    0x28715
  .debug_line    0x0000000000000000      0x210 Output/Debug/Obj/twr_demo_nRF52840/thumb_crt0.o
  .debug_line    0x0000000000000210      0x621 Output/Debug/Obj/twr_demo_nRF52840/list.o
  .debug_line    0x0000000000000831      0x4c5 Output/Debug/Obj/twr_demo_nRF52840/port.o
@@ -18463,13 +18463,13 @@ LOAD linker stubs
  .debug_line    0x0000000000020235       0xf9 Output/Debug/Obj/twr_demo_nRF52840/ses_startup_nrf_common.o
  .debug_line    0x000000000002032e      0x6cf Output/Debug/Obj/twr_demo_nRF52840/system_nrf52840.o
  .debug_line    0x00000000000209fd      0xead Output/Debug/Obj/twr_demo_nRF52840/dw_pdoa_node_common.o
- .debug_line    0x00000000000218aa     0x131a Output/Debug/Obj/twr_demo_nRF52840/main.o
- .debug_line    0x0000000000022bc4      0x9ff Output/Debug/Obj/twr_demo_nRF52840/deca_sleep.o
- .debug_line    0x00000000000235c3     0x2d57 Output/Debug/Obj/twr_demo_nRF52840/port_platform.o
- .debug_line    0x000000000002631a      0x966 Output/Debug/Obj/twr_demo_nRF52840/deca_probe_interface.o
- .debug_line    0x0000000000026c80     0x1a80 Output/Debug/Obj/twr_demo_nRF52840/cmsis_os.o
+ .debug_line    0x00000000000218aa     0x132f Output/Debug/Obj/twr_demo_nRF52840/main.o
+ .debug_line    0x0000000000022bd9      0x9ff Output/Debug/Obj/twr_demo_nRF52840/deca_sleep.o
+ .debug_line    0x00000000000235d8     0x2d57 Output/Debug/Obj/twr_demo_nRF52840/port_platform.o
+ .debug_line    0x000000000002632f      0x966 Output/Debug/Obj/twr_demo_nRF52840/deca_probe_interface.o
+ .debug_line    0x0000000000026c95     0x1a80 Output/Debug/Obj/twr_demo_nRF52840/cmsis_os.o
 
-.debug_info     0x0000000000000000    0x3f1a9
+.debug_info     0x0000000000000000    0x3f1a6
  .debug_info    0x0000000000000000       0x22 Output/Debug/Obj/twr_demo_nRF52840/thumb_crt0.o
  .debug_info    0x0000000000000022      0x2cb Output/Debug/Obj/twr_demo_nRF52840/list.o
  .debug_info    0x00000000000002ed       0xad Output/Debug/Obj/twr_demo_nRF52840/port.o
@@ -18506,13 +18506,13 @@ LOAD linker stubs
  .debug_info    0x0000000000030c69       0x23 Output/Debug/Obj/twr_demo_nRF52840/ses_startup_nrf_common.o
  .debug_info    0x0000000000030c8c     0x185e Output/Debug/Obj/twr_demo_nRF52840/system_nrf52840.o
  .debug_info    0x00000000000324ea      0x860 Output/Debug/Obj/twr_demo_nRF52840/dw_pdoa_node_common.o
- .debug_info    0x0000000000032d4a     0x2c7c Output/Debug/Obj/twr_demo_nRF52840/main.o
- .debug_info    0x00000000000359c6      0x286 Output/Debug/Obj/twr_demo_nRF52840/deca_sleep.o
- .debug_info    0x0000000000035c4c     0x68a6 Output/Debug/Obj/twr_demo_nRF52840/port_platform.o
- .debug_info    0x000000000003c4f2      0x366 Output/Debug/Obj/twr_demo_nRF52840/deca_probe_interface.o
- .debug_info    0x000000000003c858     0x2951 Output/Debug/Obj/twr_demo_nRF52840/cmsis_os.o
+ .debug_info    0x0000000000032d4a     0x2c79 Output/Debug/Obj/twr_demo_nRF52840/main.o
+ .debug_info    0x00000000000359c3      0x286 Output/Debug/Obj/twr_demo_nRF52840/deca_sleep.o
+ .debug_info    0x0000000000035c49     0x68a6 Output/Debug/Obj/twr_demo_nRF52840/port_platform.o
+ .debug_info    0x000000000003c4ef      0x366 Output/Debug/Obj/twr_demo_nRF52840/deca_probe_interface.o
+ .debug_info    0x000000000003c855     0x2951 Output/Debug/Obj/twr_demo_nRF52840/cmsis_os.o
 
-.debug_abbrev   0x0000000000000000     0x76cd
+.debug_abbrev   0x0000000000000000     0x76ca
  .debug_abbrev  0x0000000000000000       0x12 Output/Debug/Obj/twr_demo_nRF52840/thumb_crt0.o
  .debug_abbrev  0x0000000000000012      0x10c Output/Debug/Obj/twr_demo_nRF52840/list.o
  .debug_abbrev  0x000000000000011e       0x4a Output/Debug/Obj/twr_demo_nRF52840/port.o
@@ -18549,11 +18549,11 @@ LOAD linker stubs
  .debug_abbrev  0x0000000000005e6b       0x14 Output/Debug/Obj/twr_demo_nRF52840/ses_startup_nrf_common.o
  .debug_abbrev  0x0000000000005e7f      0x2ec Output/Debug/Obj/twr_demo_nRF52840/system_nrf52840.o
  .debug_abbrev  0x000000000000616b      0x22b Output/Debug/Obj/twr_demo_nRF52840/dw_pdoa_node_common.o
- .debug_abbrev  0x0000000000006396      0x52a Output/Debug/Obj/twr_demo_nRF52840/main.o
- .debug_abbrev  0x00000000000068c0      0x143 Output/Debug/Obj/twr_demo_nRF52840/deca_sleep.o
- .debug_abbrev  0x0000000000006a03      0x7c6 Output/Debug/Obj/twr_demo_nRF52840/port_platform.o
- .debug_abbrev  0x00000000000071c9      0x11b Output/Debug/Obj/twr_demo_nRF52840/deca_probe_interface.o
- .debug_abbrev  0x00000000000072e4      0x3e9 Output/Debug/Obj/twr_demo_nRF52840/cmsis_os.o
+ .debug_abbrev  0x0000000000006396      0x527 Output/Debug/Obj/twr_demo_nRF52840/main.o
+ .debug_abbrev  0x00000000000068bd      0x143 Output/Debug/Obj/twr_demo_nRF52840/deca_sleep.o
+ .debug_abbrev  0x0000000000006a00      0x7c6 Output/Debug/Obj/twr_demo_nRF52840/port_platform.o
+ .debug_abbrev  0x00000000000071c6      0x11b Output/Debug/Obj/twr_demo_nRF52840/deca_probe_interface.o
+ .debug_abbrev  0x00000000000072e1      0x3e9 Output/Debug/Obj/twr_demo_nRF52840/cmsis_os.o
 
 .debug_aranges  0x0000000000000000     0x1520
  .debug_aranges
@@ -18762,7 +18762,7 @@ LOAD linker stubs
  .debug_ranges  0x0000000000004d10      0xce8 Output/Debug/Obj/twr_demo_nRF52840/port_platform.o
  .debug_ranges  0x00000000000059f8      0x4c0 Output/Debug/Obj/twr_demo_nRF52840/cmsis_os.o
 
-.debug_frame    0x0000000000000000     0x4490
+.debug_frame    0x0000000000000000     0x4494
  .debug_frame   0x0000000000000000       0x7c Output/Debug/Obj/twr_demo_nRF52840/list.o
  .debug_frame   0x000000000000007c       0x40 Output/Debug/Obj/twr_demo_nRF52840/port.o
  .debug_frame   0x00000000000000bc       0xd0 Output/Debug/Obj/twr_demo_nRF52840/port_cmsis.o
@@ -18796,12 +18796,12 @@ LOAD linker stubs
  .debug_frame   0x0000000000003350       0x64 Output/Debug/Obj/twr_demo_nRF52840/nrfx_prs.o
  .debug_frame   0x00000000000033b4       0x6c Output/Debug/Obj/twr_demo_nRF52840/system_nrf52840.o
  .debug_frame   0x0000000000003420       0xc8 Output/Debug/Obj/twr_demo_nRF52840/dw_pdoa_node_common.o
- .debug_frame   0x00000000000034e8      0x1b0 Output/Debug/Obj/twr_demo_nRF52840/main.o
- .debug_frame   0x0000000000003698       0x7c Output/Debug/Obj/twr_demo_nRF52840/deca_sleep.o
- .debug_frame   0x0000000000003714      0x62c Output/Debug/Obj/twr_demo_nRF52840/port_platform.o
- .debug_frame   0x0000000000003d40      0x750 Output/Debug/Obj/twr_demo_nRF52840/cmsis_os.o
+ .debug_frame   0x00000000000034e8      0x1b4 Output/Debug/Obj/twr_demo_nRF52840/main.o
+ .debug_frame   0x000000000000369c       0x7c Output/Debug/Obj/twr_demo_nRF52840/deca_sleep.o
+ .debug_frame   0x0000000000003718      0x62c Output/Debug/Obj/twr_demo_nRF52840/port_platform.o
+ .debug_frame   0x0000000000003d44      0x750 Output/Debug/Obj/twr_demo_nRF52840/cmsis_os.o
 
-.debug_loc      0x0000000000000000    0x21db2
+.debug_loc      0x0000000000000000    0x21ddb
  .debug_loc     0x0000000000000000       0xa0 Output/Debug/Obj/twr_demo_nRF52840/list.o
  .debug_loc     0x00000000000000a0      0x17a Output/Debug/Obj/twr_demo_nRF52840/port_cmsis.o
  .debug_loc     0x000000000000021a      0x298 Output/Debug/Obj/twr_demo_nRF52840/port_cmsis_systick.o
@@ -18834,10 +18834,10 @@ LOAD linker stubs
  .debug_loc     0x000000000001bad5      0x18e Output/Debug/Obj/twr_demo_nRF52840/nrfx_prs.o
  .debug_loc     0x000000000001bc63      0x241 Output/Debug/Obj/twr_demo_nRF52840/system_nrf52840.o
  .debug_loc     0x000000000001bea4      0x1b2 Output/Debug/Obj/twr_demo_nRF52840/dw_pdoa_node_common.o
- .debug_loc     0x000000000001c056      0x78f Output/Debug/Obj/twr_demo_nRF52840/main.o
- .debug_loc     0x000000000001c7e5      0x1a6 Output/Debug/Obj/twr_demo_nRF52840/deca_sleep.o
- .debug_loc     0x000000000001c98b     0x3970 Output/Debug/Obj/twr_demo_nRF52840/port_platform.o
- .debug_loc     0x00000000000202fb     0x1ab7 Output/Debug/Obj/twr_demo_nRF52840/cmsis_os.o
+ .debug_loc     0x000000000001c056      0x7b8 Output/Debug/Obj/twr_demo_nRF52840/main.o
+ .debug_loc     0x000000000001c80e      0x1a6 Output/Debug/Obj/twr_demo_nRF52840/deca_sleep.o
+ .debug_loc     0x000000000001c9b4     0x3970 Output/Debug/Obj/twr_demo_nRF52840/port_platform.o
+ .debug_loc     0x0000000000020324     0x1ab7 Output/Debug/Obj/twr_demo_nRF52840/cmsis_os.o
 
 .debug_pubnames
                 0x0000000000000000    0x11274

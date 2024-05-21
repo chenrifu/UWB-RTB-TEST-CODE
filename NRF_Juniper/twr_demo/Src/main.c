@@ -98,7 +98,7 @@ static uint8_t tx_msg[] = { 0xC5, 0, 'D', 'E', 'C', 'A', 'W', 'A', 'V', 'E' };
 #define FRAME_LENGTH (sizeof(tx_msg) + FCS_LEN) // The real length that is going to be transmitted
 
 /* Inter-frame delay period, in milliseconds. */
-#define TX_DELAY_MS 1//500
+#define TX_DELAY_MS 5//500
 
 dwt_txconfig_t txconfig_options_ch9 = {
     0x34,       /* PG delay. */
@@ -456,15 +456,15 @@ void uart_error_handle(app_uart_evt_t * p_event)
                 //event=TEST_DS_TWR_INITIATOR;
                 event=TEST_DS_TWR_RESPONDER;
             }
-            else if(strcmp(dat, "rtb status?\r\n")==0)//dut antenna delay model
+            else if(strcmp(dat, "rtb status?\r\n")==0)//rtb status?
             {
                 event=RTB_STATUS;
             }
-            else if(strcmp(dat, "rtb sensitivity start\r\n")==0)//dut antenna delay model
+            else if(strcmp(dat, "rtb sensitivity start\r\n")==0)//rtb sensitivity start
             {
                 event=TEST_SIMPLE_TX;
             }
-            else if (strcmp(dat, "rtb sensitivity stop\r\n")==0)
+            else if (strcmp(dat, "rtb sensitivity stop\r\n")==0)//rtb sensitivity stop
             {
               uart_send("ok\r\n",strlen("ok\r\n"));
               event=IDLE;
