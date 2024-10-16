@@ -367,9 +367,9 @@ void final_msg_set_ts(uint8_t *ts_field, uint64_t ts)
         ts >>= 8;
     }
 }
-volatile double dist_str_d=0;
-volatile uint32_t dist_str_num=0;
-volatile uint8_t dist_str_flag=0;
+double dist_str_d=0;
+uint32_t dist_str_num=0;
+uint8_t dist_str_flag=0;
 volatile uint8_t event=0;
 #define IDLE 0
 #define TEST_SIMPLE_TX 1
@@ -423,8 +423,8 @@ void waitforsysstatus(uint32_t *lo_result, uint32_t *hi_result, uint32_t lo_mask
 }
 char dat[64];
 uint16_t dat_num=0;
-volatile uint32_t rxdelay=16391;//16385;
-volatile uint32_t txdelay=16391;//16385;
+volatile uint32_t rxdelay=14742;//17250;//16391;//16385;
+volatile uint32_t txdelay=18762;//17250;//16391;//16385;
 void uart_send(char *str,uint32_t str_len)
 {
     for(uint32_t i=0;i<str_len;i++)
@@ -850,18 +850,20 @@ static void uart_task(void * parm)
                               //uart_send("dist_str",strlen("dist_str"));
                               //test_run_info((unsigned char *)dist_str);
                               dist_str_flag++;
-                              dist_str_d+=distance;
+                              dist_str_d=dist_str_d+distance;
                               if(dist_str_flag>99)
                               {
                                 
-                                dist_str_num=(dist_str_d/dist_str_flag)*dist_str_flag;
-                                dist_str_flag=0;
+                                dist_str_num=(dist_str_d/100)*100;
+                                
                                 memset(dist_str_temp,0,sizeof(dist_str_temp));
                                 sprintf(dist_str_temp, "%d cm", dist_str_num);
                                 uart_send("rtb test distance:",strlen("rtb test distance:"));
                                 uart_send(dist_str_temp,strlen(dist_str_temp));
                                 uart_send("\r\n",strlen("\r\n"));
-                                //dist_str_num=0;
+
+                                dist_str_num=0;
+                                dist_str_flag=0;
                                 break;
                               }
                               /*if(event!=IDLE)
@@ -885,7 +887,7 @@ static void uart_task(void * parm)
               {
                   /* Clear RX error/timeout events in the DW IC status register. */
                   dwt_writesysstatuslo(SYS_STATUS_ALL_RX_TO | SYS_STATUS_ALL_RX_ERR);
-                  uart_send("rtb test distance:0 cm\r\n",strlen("rtb test distance:0 cm\r\n"));
+                  uart_send("rtb test distance:111111 cm\r\n",strlen("rtb test distance:111111 cm\r\n"));
                   break;
               }
           }
